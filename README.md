@@ -6,5 +6,5 @@
 \
 En este *README* se encuantras todos los retos acabados y listos para la revision del profesor\
 \
-Los retos acabados són
+Los retos acabados son:
 - [**Reto 0**](https://github.com/Work0S/RetosSeguridad/tree/master/Reto_0)

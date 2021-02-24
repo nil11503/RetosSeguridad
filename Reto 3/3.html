@@ -10,31 +10,32 @@
 
         <title>Reto 3</title>
     </head>
+    
     <body>
         <h4>¿Qué significa hipertexto?</h4>
-        <pre>
-
-        </pre><!-- Fin pregunta 1 -->
+        <p>El hipertexto es una sequencia o metodo de vincular un trozo de texto de un documento a otro documento. Tambien se pueden denominar <i>hyperlinks</i></p>
+        <!-- Fin pregunta 1 -->
 
         <h4>¿Cómo funciona el protocolo HTTP?</h4>
-        <pre>
-
-        </pre><!-- Fin pregunta 2 -->
+        <p>El cliente le hace una peticion al servidor http, seguidamente el servidor le tiene que enviar una respuesta. Una vez que la respuesta se a entregado el servidor HTTP cierra la conexion con el cliente</p>
+        <!-- Fin pregunta 2 -->
 
         <h4>¿Para que sirve el software Apache?</h4>
-        <pre>
-
-        </pre><!-- Fin pregunta 3 -->
+        <p>Apache es un software de codigo abierto (el software esta publicado en <a href="https://github.com/apache/tomcat">GitHub</a>) cual facilita la cración de servidores HTTP</p>
+        <!-- Fin pregunta 3 -->
 
         <h4>¿Qué diferencias hay entre Live HTTP headers y NetCat?</h4>
-        <pre>
-
-        </pre><!-- Fin pregunta 4 -->
+        <p>
+            El <i>NetCat</i> (NC) difiere mucho por el <i>Live HTTP header</i>, en principal porque <i>NC</i> esta un comando en UNIX (terminal). El <i>Live HTTP header</i> no puede hacer mucho más que leer los headers en vivo de los sitios web visitados mientras que <i>NC</i> tiene varios funciones diferentes como la posibilidad de crear conexiones en remoto (por SSH)
+        </p><!-- Fin pregunta 4 -->
 
         <h4>¿Cuáles son las versiones del protocolo HTTP y qué diferencias hay entre ellas?</h4>
-        <pre>
-
-        </pre><!-- Fin pregunta 5 -->
+        <ul>
+            <li>HTTP/0.9 - Solo se pudia enviar una linea de cabecera que solo podria usar el metodo GET</li>
+            <li>HTTP/1.0 - Ha introducido más metodos, HEAD/POST, y la respuesta es más completa (ahora devuelve el codigo de respuesta, el tipo del contenido, etc.)</li>
+            <li>HTTP/1.1 - Se ha estandarizado esta version y aparte de unos metodos extra, se ha optimizado unos componentes criticos de este</li>
+        </ul>
+        <!-- Fin pregunta 5 -->
 
         <h4>¿Cuál es la diferencia entre GET y HEAD?</h4>
         <p>El metodo <b>GET</b> devuelve todo el contenido (HEAD y BODY) mientras que <b>HEAD</b> solo devuelve la cabecera de la peticion</p>
@@ -50,8 +51,8 @@
 
         <h4>¿Cómo podemos identificar el software utilizado en un servidor web?</h4>
         <p>
-Utilizando herramientas como nmap<br>
-&emsp;&emsp;<b>nmap &#60;IP&#62; -sV -p &#60;PUERTO&#62;</b>
+            Se puede verificar la cabecera de la respuesta o utilizando herramientas como nmap <br>
+            &emsp;&emsp;<b>nmap &#60;IP&#62; -sV -p &#60;PUERTO&#62;</b>
         </p>
         <!-- Fin pregunta 9 -->
     </body>

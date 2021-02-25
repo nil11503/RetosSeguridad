@@ -10,3 +10,4 @@ Estos retos són:
 - [**Reto 0**](https://github.com/Work0S/RetosSeguridad/tree/master/Reto%200)
 - [**Reto 1**](https://github.com/Work0S/RetosSeguridad/tree/master/Reto%201)
 - [**Reto 3**](https://github.com/Work0S/RetosSeguridad/tree/master/Reto%203)
+- [**Reto 4**](https://github.com/Work0S/RetosSeguridad/tree/master/Reto%204)

